@@ -70,12 +70,12 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <div >
         <p className={`${styles.sectionSubText}`}>My Work</p>
         <h2 className={`${styles.sectionHeadText}`}> Projects.</h2>
-      </motion.div>
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
+      </div>
+      <p
+        
         className="text-secondary mt-5 text-[17px] max-w-3xl leading-[30px]"
       >
         Following projects showcase my skills and experience through real-world
@@ -83,7 +83,7 @@ const Works = () => {
         repositories and live demo in it. It reflects my ability to solve
         complex problems , work with different technologies, and manage project
         efficiently.
-      </motion.p>
+      </p>
       <div className="flex flex-wrap gap-6">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
