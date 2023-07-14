@@ -19,7 +19,6 @@ const CanvasLoader = () => {
         style={{
           fontSize: 14,
           color: "#F1F1F1",
-          marginTop : "20px",
           fontWeight: 800,
           marginTop: 40,
         }}

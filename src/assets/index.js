@@ -7,32 +7,29 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+// import docker from "./tech/docker.png";
+// import figma from "./tech/figma.png";
+// import threejs from "./tech/threejs.svg";
+// import typescript from "./tech/typescript.png";
+import css from "./techs/css.png";
+import git from "./techs/git.png";
+import html from "./techs/html.png";
+import javascript from "./techs/javascript.png";
+import mongodb from "./techs/mongodb.png";
+import nodejs from "./techs/nodejs.png";
+import reactjs from "./techs/react.png";
+import redux from "./techs/redux.png";
+import tailwind from "./techs/tailwindcss.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
 
 import textStyler from './textStyler.jpeg'
 import ticTacToe from './ticTacToe.jpeg'
-
 import campusNetwork from './campusNetwork.jpeg'
 import myDiary from './myDiary.jpeg'
 
@@ -48,8 +45,6 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
   git,
   html,
   javascript,
@@ -58,14 +53,9 @@ export {
   reactjs,
   redux,
   tailwind,
-  typescript,
-  threejs,
   meta,
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
   textStyler,ticTacToe , campusNetwork , myDiary , weatherNow
 };

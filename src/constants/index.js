@@ -4,7 +4,6 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
@@ -13,16 +12,12 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
+   
     meta,
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+   
     textStyler,ticTacToe , campusNetwork , myDiary , weatherNow
   } from "../assets";
   
@@ -81,30 +76,30 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    // {
-    //   name: "Redux Toolkit",
-    //   icon: redux,
-    // },
-    // {
-    //   name: "Tailwind CSS",
-    //   icon: tailwind,
-    // },
+    {
+      name: "Redux Toolkit",
+      icon: redux,
+    },
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
     {
       name: "Node JS",
       icon: nodejs,
     },
-    // {
-    //   name: "MongoDB",
-    //   icon: mongodb,
-    // },
+    {
+      name: "MongoDB",
+      icon: mongodb,
+    },
     // {
     //   name: "Three JS",
     //   icon: threejs,
     // },
-    // {
-    //   name: "git",
-    //   icon: git,
-    // },
+    {
+      name: "git",
+      icon: git,
+    },
     // {
     //   name: "figma",
     //   icon: figma,

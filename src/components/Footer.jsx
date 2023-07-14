@@ -3,8 +3,8 @@ const date = new Date().getFullYear();
 
 const Footer = () => {
   return (
-    <footer className="bg-black-100 max-w-full py-6  text-center">
-      <div className="flex justify-center items-center gap-7 text-[30px] my-3">
+    <footer className="bg-black-100 max-w-full py-6  text-center px-3">
+      <div className="flex justify-center items-center gap-7 text-[30px] sm:text-[24px] my-3">
         {/* linkedin  */}
         <a href="https://linkedin.com/in/mandeep2002" target="_blank">
         <div className="bg-gradient-to-r from-violet-900 to-sky-900 py-1 px-3 rounded-md ">
@@ -28,12 +28,13 @@ const Footer = () => {
       </div>
       <div className="mt-7">
         <p>
-          mandeepsingh2822@outlook.com <span className="mx-2">
-            | +91-98881-94225
-          </span>
+          mandeepsingh2822@outlook.com
+        </p>
+        <p className="mt-2">
+         +91-98881-94225
         </p>
       </div>
-      <div className="mt-5">
+      <div className="mt-5 ">
         <p>
           All right and reserved &copy; {date} mandeepsingh.tech
         </p>
