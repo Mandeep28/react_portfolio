@@ -22,9 +22,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-16 h-13" />
-          <p className="text-white font-bold cursor-pointer text-[18px] flex">
-            Mandeep &nbsp; <span className="sm:block ">Singh</span>
+          <img src={logo} alt="logo" className="w-12 h-10 object-contain mx-1" style={{borderRadius : '50%' , boxShadow :'4px 1px 7px 1px #915eff'}}  />
+          <p className="text-white font-bold cursor-pointer text-[18px] ms-1 my-1">
+            Mandeep Singh
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10 pt-3">
